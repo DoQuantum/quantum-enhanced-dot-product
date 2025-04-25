@@ -20,8 +20,11 @@ Always work on a separate branch. Never push directly to main.
 
 1. Create a new branch for each task or feature
    bash
+
    ```bash
    git branch -c your-name/feature-name
+
+   ```
 
 2. Make your changes locally
    Work on your files as needed — save your progress often.
@@ -29,7 +32,9 @@ Always work on a separate branch. Never push directly to main.
 3. Stage and commit your changes
 
    ```bash
-   git add . OR git add specific-file-name
+   git add .
+   OR
+   git add specific-file-name
    git commit -m "Your descriptive commit message"
 
    ```
@@ -37,7 +42,9 @@ Always work on a separate branch. Never push directly to main.
 4. Push your branch to GitHub
 
    ```bash
-   git push origin feature-your-name OR FOR EASIER SYNTAX git push origin head
+   git push origin feature-your-name
+   OR
+   git push origin head
 
    ```
 
