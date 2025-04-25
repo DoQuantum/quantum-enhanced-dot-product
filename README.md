@@ -4,17 +4,31 @@
 
 ### Cloning the Repository
 
-#### Option 1: Command Line
+You can clone this repository using any of these methods:
+
+#### Option 1: HTTPS URL
 
 ```bash
-git clone https://github.com/YOUR-ORG-NAME/YOUR-TEAM-REPO.git
+git clone https://github.com/DoQuantum/quantum-enhanced-dot-product-for-single-head-attention.git
 ```
 
-#### Option 2: Command Palette
+#### Option 2: SSH URL
+
+```bash
+git clone git@github.com:DoQuantum/quantum-enhanced-dot-product-for-single-head-attention.git
+```
+
+#### Option 3: GitHub CLI
+
+```bash
+gh repo clone DoQuantum/quantum-enhanced-dot-product-for-single-head-attention
+```
+
+#### Option 4: Command Palette
 
 1. Press `Ctrl+Shift+P` (Windows/Linux) or `Cmd+Shift+P` (Mac)
 2. Type "git clone"
-3. Paste the repository URL (from the "Clone" button on GitHub)
+3. Paste one of the URLs above
 4. Choose your destination folder
 
 ### Branching Workflow
