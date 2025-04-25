@@ -9,39 +9,48 @@ Welcome to your research repository! This guide will help you work together usin
 ## 🚀 Getting Started
 
 **Clone your repository** to your computer:
-   ```bash
-   git clone https://github.com/YOUR-ORG-NAME/YOUR-TEAM-REPO.git
-   ```
+
+```bash
+git clone https://github.com/YOUR-ORG-NAME/YOUR-TEAM-REPO.git
+```
 
 ## 🌿 Branching Workflow
+
 Always work on a separate branch. Never push directly to main.
 
 1. Create a new branch for each task or feature
-bash
-    ```bash
-    git checkout -b feature-your-name
+   bash
+   ```bash
+   git branch -c your-name/feature-name
 
 2. Make your changes locally
-Work on your files as needed — save your progress often.
+   Work on your files as needed — save your progress often.
 
 3. Stage and commit your changes
-    ```bash
-    git add .
-    git commit -m "Your descriptive commit message"
+
+   ```bash
+   git add . OR git add specific-file-name
+   git commit -m "Your descriptive commit message"
+
+   ```
 
 4. Push your branch to GitHub
-    ```bash
-    git push origin feature-your-name
+
+   ```bash
+   git push origin feature-your-name OR FOR EASIER SYNTAX git push origin head
+
+   ```
 
 5. Open a Pull Request (PR)
-    - Go to the repo on GitHub
-    - Click "Compare & pull request"
-    - Add a short description of your changes
-    - Tag a teammate to review it
+   - Go to the repo on GitHub
+   - Click "Compare & pull request"
+   - Add a short description of your changes
+   - Tag a teammate to review it
 
 Once approved, it can be safely merged into main.
 
 ## 📌 Commit Message Tips
+
 Write clear, useful messages that explain what and why, like:
 
 - `Add quantum state simulation function`
@@ -49,14 +58,17 @@ Write clear, useful messages that explain what and why, like:
 - `Update README with cloning instructions`
 
 ## 🔁 Keeping Your Repo Up to Date
+
 Always sync with the main branch before starting new work:
+
 ```bash
   git checkout main
   git pull origin main
   Then create your feature branch from the updated main.
-  ```
+```
 
 ## 🧠 Best Practices
+
 - ✅ One branch per feature or fix
 - ✅ Pull frequently to avoid merge conflicts
 - ✅ Keep your code well-commented and organized
@@ -65,5 +77,5 @@ Always sync with the main branch before starting new work:
 - ✅ Communicate often in your team chat and meetings, get to know eachother outside of work (lunch, dinner, night on the town)
 
 ## 💬 Need Help?
-Ask questions in your team chat, or bring them to your next Advisory or Working Meeting.
 
+Ask questions in your team chat, or bring them to your next Advisory or Working Meeting.
