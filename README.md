@@ -1,5 +1,23 @@
 # Quantum Enhanced Dot Product for Single Head Attention
 
+## ⚠️⚠️⚠️ CRITICAL WARNING ⚠️⚠️⚠️
+
+### 🚫 NEVER MERGE WITH OR PUSH TO MAIN DIRECTLY 🚫
+
+**THIS IS EXTREMELY IMPORTANT:**
+
+- ❌ Never push directly to the main branch
+- ❌ Never merge your branch with main without team approval
+- ❌ Never force push to main
+- ❌ Never delete the main branch
+
+**ALWAYS:**
+
+- ✅ Create a new branch for your work
+- ✅ Get code review from at least one team member
+- ✅ Get explicit approval from the team before merging
+- ✅ Use pull requests for all changes
+
 ## Git Workflow Guide
 
 ### Cloning the Repository
