@@ -91,8 +91,6 @@ git pull origin main
 - ✅ Keep your code well-commented and organized
 - ✅ Use README.md for explanations
 - ✅ Track bugs, tasks, or ideas with GitHub Issues
-- ✅ Communicate often in your team chat and meetings
-- ✅ Get to know each other outside of work (lunch, dinner, night on the town)
 
 ## 💬 Need Help?
 
