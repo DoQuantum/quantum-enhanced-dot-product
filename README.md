@@ -35,6 +35,7 @@ Always work on a separate branch. Never push directly to main.
    git add .
    OR
    git add specific-file-name
+   THEN
    git commit -m "Your descriptive commit message"
 
    ```
